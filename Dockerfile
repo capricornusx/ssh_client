@@ -1,7 +1,8 @@
 FROM alpine
 MAINTAINER Dmitry Dubinin <dv.dubinin@ya.ru>
-LABEL Description="SSH client for deploy pipeline" \
-      Version="latest"
-
+LABEL org.opencontainers.image.version="latest" \
+      org.opencontainers.image.description="SSH client for deploy pipeline"
+      
 RUN apk add --no-cache rsync openssh && mkdir -p ~/.ssh
+
 
