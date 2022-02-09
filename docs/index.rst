@@ -11,6 +11,7 @@ contain the root `toctree` directive.
  .. toctree::
     :maxdepth: 2
 
+example1
 
 
  Indices and tables
